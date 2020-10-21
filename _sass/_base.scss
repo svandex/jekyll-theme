@@ -50,6 +50,7 @@ article {
 
     @include media-query($on-palm) {
         padding: 1em 1em 0.3em;
+		font-size: 20px;
     }
 
     > .entry-content {
@@ -58,29 +59,31 @@ article {
         }
 
         &:first-letter {
-            color: #b7b1a9;
+            color: #cd5c5c;
             display: inline-block;
             float: left;
-            font-family: "Playfair Display";
-            font-size: 121px;
+            font-family: "Noto Sans SC";
+            font-size: 49px;
             font-style: normal;
             font-weight: 700;
             line-height: 70px;
             margin: 6px 10px 0 -5px;
 
             @include media-query($on-palm) {
-                font-size: 70px;
-                line-height: 30px;
+                font-size: 36px;
+                line-height: 40px;
             }
         }
 
         &:first-line {
-            color: #787065;
-            font-family: "Playfair Display SC";
+/*
+            color: #000000;
+            font-family: "Noto Sans SC";
             font-size: 1em;
             font-style: normal !important;
-            font-weight: bold;
+            font-weight: normal;
             letter-spacing: 2px;
+*/
         }
     }
 }
@@ -112,7 +115,7 @@ article {
         font-style: italic;
 
         @include media-query($on-palm) {
-            font-size: $small-font-size;
+            font-size: $base-font-size*1.125;
         }
 
         &:before {
@@ -215,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #8b1a1a;
     text-decoration: none;
 
     &:hover {

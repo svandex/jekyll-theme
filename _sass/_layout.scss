@@ -3,7 +3,7 @@
  */
 .site-header {
     background: #faf9f5;
-    border-top: 5px solid $title-color;
+    border-top: 0px solid $title-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     text-align: center;
@@ -13,9 +13,9 @@
 }
 
 .site-title {
-    font-family: "Playfair Display";
-    font-size: 32px;
-    font-weight: 300;
+    font-family: "Noto Sans SC","Hiragino Sans GB W3";
+    font-size: 25px;
+    font-weight: bold;
     line-height: 56px;
     margin-bottom: 0;
 
@@ -123,8 +123,8 @@
 
 .post-link {
     display: block;
-    font-family: "Playfair Display";
-    font-size: 44px;
+    font-family: "Noto Sans SC";
+    font-size: 25px;
 
     @include media-query($on-palm) {
         font-size: 1.1em;
@@ -142,8 +142,8 @@
 
 .post-title {
     color: $grey-color;
-    font-family: "Playfair Display";
-    font-size: 42px;
+    font-family: "NotosSanssSC";
+    font-size: 25px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -253,7 +253,7 @@
     h1 {
         color: $brand-color;
         display: block;
-        font-family: "Playfair Display";
+        font-family: "Noto Sans SC";
         font-size: 44px;
         text-align: center;
 
