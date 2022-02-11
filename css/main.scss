@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Font variables
 $font-name: libretto-icons;
 $font-path-file-name: {{ site.baseurl }}/assets/fonts/$font-name/$font-name;
@@ -17,10 +15,8 @@ $font-path-file-name: {{ site.baseurl }}/assets/fonts/$font-name/$font-name;
          url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
 }
 
-
-
 // Our variables
-$base-font-family: "Noto Sans SC", "Hiragino Sans GB W3", "Playfair Display", "Cascadia Mono", "Monaco", Consolas;
+$base-font-family: "Noto Sans SC","Cascadia Mono","Hiragino Sans GB W3","Monaco", Consolas;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $base-line-height: 2;
@@ -44,8 +40,6 @@ $content-width:    1200px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -58,8 +52,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
